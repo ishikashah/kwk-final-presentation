@@ -1,0 +1,574 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  background-color: #FF5754;
+  border: 5px solid white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #white;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+.column {
+  float: left;
+  padding: 10px;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+/* h2 {
+  border: 5px double black;
+} */
+#title {
+  border: 5px double black;
+  padding-top: 20px
+}
+h1 {
+  border: 5px double black;
+  padding-top: 20px
+}
+
+.logos{
+  width: 60%;
+  font-size: 30px;
+  object-position: center;
+}
+.quote {
+  color: white;
+  width: 40%;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Courier New";
+  border:5px double black;
+  padding-bottom: 10px;
+  background-color: #FF5754;
+  padding-right: 30px;
+}
+.head:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-right: 20px;
+}
+
+#logo {
+  width: 100%;
+  height: 500px;
+  align-content: left;
+}
+.column {
+  float: left;
+  padding: 10px;
+  height: 100%; /* Should be removed. Only for demonstration */
+  font-family: "Courier New";
+}
+
+.mission {
+  width: 60%;
+  font-size: 28px;
+  text-align: center;
+  font-family: "Courier New";
+}
+
+.subscription {
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #383e40;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+<!-----stats---->
+.rowOne {
+  background-color: #C0C0C0;
+}
+ .column{
+  float: left;
+  padding: 50px;
+  float: left;
+  /* height: 100% */
+}
+#labelStat {
+  text-align: center;
+  padding-bottom: 30px;
+  color:black;
+}
+.first {
+  width: 33%;
+  text-align: left;
+  font-size: 20px;
+  height: 880px;
+  background-color: #FF5754;
+color: white;
+}
+#picOne {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+#picTwo {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.second{
+  width: 34%;
+  text-align: left;
+  font-size: 20px;
+  height: 880px
+}
+.third{
+  width: 33%;
+  text-align: left;
+  font-size: 20px;
+  height: 880px;
+  background-color: #FF5754;
+  color: white;
+}
+#picThree {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.rowTwo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p {
+  font-family: "Courier New";
+}
+<!-----WHAT YOU CAN DO---->
+.column{
+ float: left;
+ padding: 40px;
+ float: left;
+ height: 100%
+}
+
+#labelHelp {
+ text-align: center;
+ padding-bottom: 30px;
+ color:black;
+
+}
+.one {
+  color:white;
+ width: 33%;
+ text-align: left;
+ font-size: 20px;
+ height: 880px;
+ background-color: #FF5754;
+}
+
+#a {
+  padding-top:0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#b {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.two{
+ width: 34%;
+ text-align: left;
+ font-size: 20px;
+ height: 880px;
+ background-color: white;
+}
+
+.three{
+ width: 33%;
+ text-align: left;
+ font-size: 20px;
+ height: 880px;
+background-color: #FF5754;
+}
+#c {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+.whatbutton {
+  border: none;
+  border-radius: 8px;
+  color: red;
+  background-color: white;
+  padding: 55px 80px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 45px;
+  font-family: "Heebo";
+  margin-left: 30px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.whatbutton:hover {
+  background-color: #F08080;
+  color: white;
+}
+
+.petition {
+  border:none;
+  border-radius: 8px;
+  color: red;
+  background-color: white;
+  padding:50px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Heebo";
+  margin-left: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.petition:hover {
+  background-color: #F08080;
+  color: white;
+}
+
+.bulletstyle {
+  color:white;
+  text-align: center;
+  justify-content:center;
+}
+
+.rowFour:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+p {
+ font-family: "Courier New";
+}
+<!----stories---->
+.column{
+ float: left;
+ padding: 50px;
+ float: left;
+ height: 100%;
+ object-position: center;
+
+}
+/*
+.firststory {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: red;
+  padding: 15px 24px;
+  margin-left: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: "Heebo";
+}
+
+.secondstory {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: red;
+  padding: 15px 24px;
+  margin-left: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: "Heebo";
+} */
+
+.thirdstory {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: red;
+  padding: 15px 24px;
+  margin-left: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: "Heebo";
+}
+
+
+
+
+
+#labelNews {
+ text-align: center;
+ padding-bottom: 30px;
+}
+
+.four {
+ width: 33%;
+ text-align: left;
+ font-size: 20px;
+ height: 1000px;
+ background-color: white;
+}
+#x {
+ width: 100%;
+ height: 200px;
+ object-fit: contain;
+ text-align: center;
+}
+#y {
+ width: 100%;
+ height: 200px;
+ object-fit: contain;
+}
+.five{
+ width: 34%;
+ text-align: left;
+ font-size: 20px;
+ height: 1000px;
+ background-color: #FF5754;
+ color: white;
+}
+.six{
+ width: 33%;
+ text-align: left;
+ font-size: 20px;
+ height: 1000px;
+ background-color: white;
+}
+#z {
+ width: 100%;
+ height: 200px;
+ object-fit: contain;
+ align-items: center;
+}
+
+
+
+.rowThree:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+p {
+ font-family: "Courier New";
+}
+.group{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+#groupPic {
+  align-items: center;
+  width: 500px;
+  height:300px;
+  object-fit: cover;
+  justify-content: center;
+}
+.columns {
+  float: left;
+  padding: 50px;
+ float: left;
+ height: 100%
+}
+.q {
+color:white;
+ width: 33%;
+ text-align: left;
+ font-size: 20px;
+ height: 450px;
+ border: 7px double black;
+ background-color: #FF5754;
+ text-align: center;
+ font-family: "Courier New";
+}
+.w{
+  color:white;
+ width: 33%;
+ text-align: left;
+ font-size: 20px;
+ height: 450px;
+ border: 7px double black;
+ background-color: #FF5754;
+ text-align: center;
+ font-family: "Courier New";
+}
+.e {
+  color:white;
+ width: 33%;
+ text-align: left;
+ font-size: 20px;
+ height: 450px;
+ border: 7px double black;
+ background-color: #FF5754;
+ text-align: center;
+font-family: "Courier New";
+}
+.rowFive:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: none;
+    display: block;
+    width: 100%
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+
+
+a.button{
+     -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    align-self: center;
+}
+  .US{
+    font-size: 80px;
+    text-align: center;
+  }
